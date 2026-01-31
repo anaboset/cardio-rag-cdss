@@ -1,0 +1,9 @@
+{
+  "age": 62, "sex": "Female", "height": 165, "weight": 95,
+  "hypertension": true, "diabetes": true, "dyslipidemia": true,
+  "smoking": "Never", "family_history_cvd": false, "prior_cvd": true,
+  "chief_complaint": "Management of Type 2 Diabetes and chronic kidney disease",
+  "symptoms": ["Edema", "Fatigue"],
+  "total_cholesterol": 210, "ldl": 130, "hdl": 35, "triglycerides": 250,
+  "hbA1c": 8.5, "egfr": 42, "other_history": "History of stroke (2 years ago), on Lisinopril and Metformin"
+}

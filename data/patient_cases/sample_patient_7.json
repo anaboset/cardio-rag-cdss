@@ -1,0 +1,9 @@
+{
+  "age": 67, "sex": "Male", "height": 172, "weight": 76,
+  "hypertension": true, "diabetes": false, "dyslipidemia": true,
+  "smoking": "Former", "family_history_cvd": false, "prior_cvd": true,
+  "chief_complaint": "Increasing shortness of breath and inability to walk long distances",
+  "symptoms": ["Dyspnea", "Edema", "Fatigue"],
+  "total_cholesterol": 160, "ldl": 90, "hdl": 40, "triglycerides": 120,
+  "hbA1c": 6.1, "egfr": 52, "other_history": "ECHO shows LVEF 32%, history of dilated cardiomyopathy"
+}

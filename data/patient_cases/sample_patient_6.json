@@ -1,0 +1,9 @@
+{
+  "age": 52, "sex": "Female", "height": 162, "weight": 88,
+  "hypertension": false, "diabetes": false, "dyslipidemia": true,
+  "smoking": "Never", "family_history_cvd": false, "prior_cvd": false,
+  "chief_complaint": "High cholesterol found during workplace screening",
+  "symptoms": ["None"],
+  "total_cholesterol": 260, "ldl": 180, "hdl": 48, "triglycerides": 160,
+  "hbA1c": 5.9, "egfr": 95, "other_history": "BMI 33.5, interested in diet-based management"
+}

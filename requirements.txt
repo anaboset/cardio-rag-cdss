@@ -1,0 +1,40 @@
+# --- Core Framework ---
+langchain>=1.2.3
+langchain-core>=0.3.83
+langchain-community>=0.4.0
+langsmith>=0.0.20
+
+# --- Partner Integrations ---
+langchain-openai>=1.1.7
+langchain-chroma>=0.1.4
+langchain-cohere>=0.5.0
+langchain-unstructured>=0.1.0
+langchain-classic>=0.2.6
+langchain-groq>=0.1.3
+langchain-huggingface>=0.3.5
+sentence-transformers>=2.5.1
+
+# --- Processing & Utilities ---
+langchain-experimental>=0.3.0
+unstructured[all-docs]>=0.16.0
+nltk>=3.9.1
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
+rank_bm25>=0.2.2
+
+# --- Vector Database & Services ---
+chromadb>=0.5.3
+cohere>=5.11.0
+openai>=1.59.0
+groq>=0.6.3
+
+# --- Graph Database ---
+graphiti-core>=0.6.1
+neo4j>=5.8.0
+
+# --- UI ---
+streamlit>=1.25.0
+reportlab>=3.10.2
+
+# --- Testing ---
+pytest>=7.4.0

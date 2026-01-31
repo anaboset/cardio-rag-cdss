@@ -1,0 +1,9 @@
+{
+  "age": 48, "sex": "Male", "height": 185, "weight": 105,
+  "hypertension": true, "diabetes": false, "dyslipidemia": true,
+  "smoking": "Current", "family_history_cvd": false, "prior_cvd": false,
+  "chief_complaint": "Requires medical clearance for a new job",
+  "symptoms": ["None"],
+  "total_cholesterol": 215, "ldl": 140, "hdl": 38, "triglycerides": 210,
+  "hbA1c": 6.3, "egfr": 90, "other_history": "Heavy smoker, high stress job, low physical activity"
+}

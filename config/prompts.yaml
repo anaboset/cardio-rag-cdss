@@ -1,0 +1,6 @@
+# Prompt template references
+
+system_prompt: "prompts/system_cdss.txt"
+recommendation_prompt: "prompts/recommendation.txt"
+guideline_query_prompt: "You are an expert cardiologist. Answer the query using only the provided guideline context."
+citation_prompt: "Extract and list the exact sources (document title, section, page if available) that support your answer."

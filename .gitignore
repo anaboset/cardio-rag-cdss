@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+logs/
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit
+
+# Data & embeddings (large files)
+data/guidelines/*
+data/processed/*
+vectorstore/embeddings/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/patient_cases/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db

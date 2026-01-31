@@ -1,0 +1,9 @@
+{
+  "age": 55, "sex": "Male", "height": 178, "weight": 82,
+  "hypertension": true, "diabetes": false, "dyslipidemia": true,
+  "smoking": "Former", "family_history_cvd": true, "prior_cvd": true,
+  "chief_complaint": "Follow-up 3 months after Myocardial Infarction and Stent placement",
+  "symptoms": ["None", "Occasional anxiety"],
+  "total_cholesterol": 140, "ldl": 85, "hdl": 42, "triglycerides": 130,
+  "hbA1c": 5.8, "egfr": 88, "other_history": "PCI to LAD, currently on Aspirin, Ticagrelor, and Atorvastatin 40mg"
+}

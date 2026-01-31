@@ -1,0 +1,21 @@
+{
+  "age": 68,
+  "sex": "Male",
+  "height": 175,
+  "weight": 90,
+  "hypertension": true,
+  "diabetes": true,
+  "dyslipidemia": true,
+  "smoking": "Former",
+  "family_history_cvd": true,
+  "prior_cvd": false,
+  "chief_complaint": "Follow-up after recent diagnosis of hypertension and dyslipidemia",
+  "symptoms": ["Fatigue", "Occasional dyspnea on exertion"],
+  "total_cholesterol": 220,
+  "ldl": 150,
+  "hdl": 40,
+  "triglycerides": 180,
+  "hbA1c": 7.2,
+  "egfr": 75,
+  "other_history": "On metformin, no known CAD"
+}

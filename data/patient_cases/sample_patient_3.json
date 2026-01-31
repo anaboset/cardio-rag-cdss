@@ -1,0 +1,9 @@
+{
+  "age": 78, "sex": "Female", "height": 160, "weight": 55,
+  "hypertension": true, "diabetes": false, "dyslipidemia": false,
+  "smoking": "Never", "family_history_cvd": false, "prior_cvd": false,
+  "chief_complaint": "Routine BP check, feeling lightheaded when standing",
+  "symptoms": ["Dizziness", "Fatigue"],
+  "total_cholesterol": 185, "ldl": 100, "hdl": 60, "triglycerides": 110,
+  "hbA1c": 5.7, "egfr": 58, "other_history": "Osteoarthritis, mild orthostatic hypotension"
+}

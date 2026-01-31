@@ -1,0 +1,55 @@
+# Main configuration for CVD-RAG CDSS
+
+llm:
+  provider: "groq"  # Options: openai, ollama, anthropic, groq, local
+  model: "llama-3.3-70b-versatile"  # Change to gpt-4o, claude-3, llama3, etc.
+  temperature: 0.1
+
+embedding:
+  provider: "huggingface"  # Options: openai, sentence-transformers, huggingface
+  model: "sentence-transformers/all-MiniLM-L6-v2" # Change to appropriate embedding model
+
+vectorstore:
+  provider: "chroma"
+  collection_name: "cvd_guidelines"
+  persist_directory: "vectorstore/embeddings/chroma_db"
+
+neo4j:
+  neo4j_uri: os.getenv("neo4j_uri")  
+  neo4j_username: os.getenv("neo4j_username")
+  neo4j_password: os.getenv("neo4j_password")
+
+retrieval:
+  k: 10                     # Base retrieval count
+  hybrid_alpha: 0.7         # 0.0 = pure keyword, 1.0 = pure vector (0.7 favors vector)
+  rerank: true              # Enable basic reranking
+  rerank_top_k: 6           # Final chunks after rerank
+  default_filters:          # Optional global filters
+  guideline_type: "clinical"
+
+chunking:
+  strategy: "recursive"  # or "semantic", "by_section"
+  size: 1000
+  overlap: 200
+  
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+  log_to_file: true
+  log_file_path: "logs/cvd_cdss.log"
+
+prompts:
+  system_template: "prompts/system_cdss.txt"
+  recommendation_template: "prompts/recommendation.txt"
+  guideline_query_template: "You are an expert cardiologist. Answer the query using only the provided guideline context."
+  citation_template: "Extract and list the exact sources (document title, section, page if available) that support your answer."
+
+query_expansion:
+  enabled: true
+  num_variants: 3  # Number of rewritten queries to generate
+  system_prompt: "You are a clinical query expert. Rewrite the user query into {num} variations that capture intent, synonyms, and expansions for better guideline retrieval. Output as a YAML list only."
+  temperature: 0.1
+
+paths:
+  raw_data: "data/guidelines"
+  processed_data: "data/processed"
+  patient_cases: "data/patient_cases"

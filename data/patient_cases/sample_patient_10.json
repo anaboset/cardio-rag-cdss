@@ -1,0 +1,9 @@
+{
+  "age": 71, "sex": "Male", "height": 170, "weight": 78,
+  "hypertension": true, "diabetes": true, "dyslipidemia": true,
+  "smoking": "Former", "family_history_cvd": false, "prior_cvd": true,
+  "chief_complaint": "Leg pain when walking (claudication)",
+  "symptoms": ["Chest pain", "Fatigue"],
+  "total_cholesterol": 195, "ldl": 120, "hdl": 45, "triglycerides": 140,
+  "hbA1c": 7.8, "egfr": 65, "other_history": "Known PAD, previous carotid endarterectomy"
+}

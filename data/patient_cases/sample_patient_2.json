@@ -1,0 +1,9 @@
+{
+  "age": 42, "sex": "Male", "height": 180, "weight": 85,
+  "hypertension": false, "diabetes": false, "dyslipidemia": false,
+  "smoking": "Current", "family_history_cvd": true, "prior_cvd": false,
+  "chief_complaint": "Wants to check heart health after father's heart attack at 50",
+  "symptoms": ["None"],
+  "total_cholesterol": 190, "ldl": 115, "hdl": 45, "triglycerides": 140,
+  "hbA1c": 5.4, "egfr": 105, "other_history": "Smokes 1 pack/day, sedentary office job"
+}

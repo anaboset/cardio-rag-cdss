@@ -1,0 +1,9 @@
+{
+  "age": 60, "sex": "Female", "height": 158, "weight": 64,
+  "hypertension": true, "diabetes": false, "dyslipidemia": true,
+  "smoking": "Never", "family_history_cvd": true, "prior_cvd": true,
+  "chief_complaint": "Extreme muscle pain on statins, but LDL remains high",
+  "symptoms": ["None", "Myalgia on Atorvastatin"],
+  "total_cholesterol": 240, "ldl": 165, "hdl": 55, "triglycerides": 150,
+  "hbA1c": 5.6, "egfr": 82, "other_history": "Prior TIA, family history of Familial Hypercholesterolemia"
+}
