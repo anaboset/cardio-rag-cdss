@@ -266,31 +266,31 @@ It does not:
 CardioCDSS is evaluated as a **clinical decision support system**, not a chatbot.  
 Evaluation focuses on evidence alignment, retrieval performance, and safety behavior.
 
-### 1️⃣ Retrieval Performance
+#### 1️⃣ Retrieval Performance
 Measures whether the correct guideline evidence is found.
 
 - **Recall@K** — Probability that the relevant guideline section appears in top-K retrieved chunks  
 - **Graph Contribution Analysis** — % of successful retrievals that relied on knowledge graph expansion
 
-### 2️⃣ Generation Faithfulness
+#### 2️⃣ Generation Faithfulness
 Ensures outputs do not contradict retrieved evidence.
 
 - **Faithfulness Score (RAGAS or LLM-based evaluation)**  
 - **Contradiction Rate** — Frequency of statements unsupported by citations
 
-### 3️⃣ Citation Accuracy
+#### 3️⃣ Citation Accuracy
 Verifies that cited guideline sources actually contain the referenced recommendations.
 
 - Manual clinical review  
 - Automated citation-to-source matching
 
-### 4️⃣ Safety & Abstention Behavior
+#### 4️⃣ Safety & Abstention Behavior
 Tests system response when guidelines do not contain relevant evidence.
 
 - **Abstention Accuracy** — Correctly saying “No relevant guideline found”  
 - **Hallucination Rate** — Generating unsupported medical advice
 
-### 5️⃣ Latency
+#### 5️⃣ Latency
 Clinical usability requires near-real-time performance.
 
 - Target: **< 5 seconds** from query to response
