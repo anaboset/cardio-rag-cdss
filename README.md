@@ -2,7 +2,7 @@
 
 ## 🩺 Overview
 
-**CardioCDSS** is a Retrieval-Augmented Generation (RAG) clinical decision support engine that transforms static cardiovascular guidelines into a structured, queryable medical knowledge system. By combining semantic search, knowledge graph retrieval, and evidence-constrained generation, it delivers patient-specific recommendations grounded strictly in authoritative guidelines.
+**CardioCDSS** is a Retrieval-Augmented Generation (RAG) clinical decision support engine that transforms static cardiovascular disease management guidelines into a structured, queryable medical knowledge system. By combining semantic search, knowledge graph retrieval, and evidence-constrained generation, it delivers patient-specific recommendations grounded strictly in authoritative guidelines.
 
 The project addresses critical barriers in clinical practice: **Guideline Overload** and **Lack of Guideline Awareness**.
 
