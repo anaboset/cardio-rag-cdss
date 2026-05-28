@@ -57,11 +57,8 @@ The system follows a 4-layer clinical RAG pipeline:
 | Component | Choice | Reason for Choice |
 | --- | --- | --- |
 | **Vector Store** | **ChromaDB** | Lightweight, persistent, and supports the metadata filtering required for guideline recency (publication year). |
-| **Graph DB** | **(disabled)** | Graph retrieval is removed in the fast local demo path. |
 | **Reranker** | **Cohere v3.0** | Specifically trained for "long-context" document relevance, outperforming standard cosine similarity for dense medical text. |
-| **Extraction Model** | **(disabled)** | Only needed if you re-enable graph ingestion. |
 | **Hosting Engine** | **Ollama** | Local model hosting reduces data exposure and improves privacy control and No API cost |
-| **Graph Logic** | **(disabled)** | Graphiti is not used in the default vector/BM25 pipeline. |
 | **Embedder** | **nomic-embed-text** | 8k context window and high performance on medical benchmarks. |
 | **Memory** | **Stateless (None)** | Intentionally omitted to prioritize clinical safety and data integrity(see below)
 
@@ -141,8 +138,8 @@ tests/
 Clone the project repository to your local machine.
 
 ```bash
-git clone https://github.com/anaboset/cardio-rag-cdss
-cd cardio-rag-cdss
+git clone https://github.com/anaboset/cardiosentinel_rag
+cd cardiosentinel_rag
 ```
 
 ### 2. Environment & Dependency Management
