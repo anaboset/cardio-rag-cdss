@@ -1,0 +1,12 @@
+.env
+.venv
+__pycache__/
+.pytest_cache/
+
+*.pyc
+vectorstore/
+logs/
+.chroma/
+*.log
+data/guidelines
+data/patient_cases

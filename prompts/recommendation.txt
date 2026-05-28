@@ -1,0 +1,37 @@
+Patient Profile:
+{patient_summary}
+
+Query:
+{query}
+
+Retrieved Guideline Evidence:
+{context}
+
+Instructions:
+Using only the provided guideline evidence above, generate a personalized, evidence-based management recommendation for this patient.
+
+Structure your response as follows:
+
+1. Risk Assessment Summary
+   - Key cardiovascular risks based on patient data and guidelines
+
+2. Recommended Diagnostic Steps
+   - Additional tests or evaluations supported by guidelines
+
+3. Therapeutic Recommendations
+   - Pharmacotherapy (drugs, doses if specified)
+   - Lifestyle modifications
+   - Device therapy or procedures if indicated
+
+4. Follow-up and Monitoring
+   - Suggested timeline and parameters
+
+5. Supporting Guideline References
+   - List each relevant source with section/page
+
+Important:
+- Be specific to the patient's profile
+- Be concise and direct in your response
+- Prioritize guideline class of recommendation (e.g., Class I, LOE A)
+- Highlight contraindications or cautions
+- If no clear guideline applies, state limitations clearly 
